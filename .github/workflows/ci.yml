@@ -37,8 +37,8 @@ jobs:
           args:             
             # Unique keys of your project and organization. You can find them in SonarCloud > Information (bottom-left menu)
             # mandatory
-            -Dsonar.projectKey="JubayerJoy_NestJs-Coffee-App"
-            -Dsonar.organization="jubayerjoy"
+            -Dsonar.projectKey=JubayerJoy_NestJs-Coffee-App
+            -Dsonar.organization=jubayerjoy
             -Dsonar.sources=src
             #-Dsonar.tests=test/**
             # Comma-separated paths to directories containing main source files.
