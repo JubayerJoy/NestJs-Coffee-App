@@ -7,4 +7,5 @@ import { HealthController } from './health.controller';
   imports: [TerminusModule, HttpModule],
   controllers: [HealthController],
 })
+
 export class HealthModule {}
