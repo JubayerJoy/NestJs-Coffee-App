@@ -13,7 +13,7 @@ jobs:
       checks: write
       pull-requests: write
       contents: write
-    name: CI, Coverage and SonarCloud analysis
+    name: Coverage and SonarCloud analysis
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
